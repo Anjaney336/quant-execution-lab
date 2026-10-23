@@ -43,3 +43,12 @@ Snapshots reset depth, so there is no persistent impact, adverse-selection model
 
 ## Interview demonstration
 Explain FIFO after partial fills; derive quantity conservation; reproduce the no-fill opportunity-cost test; show a conflicting retry being rejected; then change depth assumptions and explain why the policy comparison changes. Review and reproduce the code before claiming independent mastery.
+
+## Execution robustness extension
+
+1,800 simulated policy executions across 9 depth/cost cells, with paired intervals and fill rates. No real execution advantage is inferred.
+
+![Execution robustness extension](results/robustness.svg)
+
+Run `python robustness.py` after installing `matplotlib==3.10.7`. Sources are the existing documented fixture/ledger, accessed 24 October 2026. All sensitivity inputs are assumptions.
+
