@@ -1,3 +1,5 @@
+> **Consolidated research, 24 October 2026:** The expanded version of this work is maintained in [systematic-strategy-research](https://github.com/Anjaney336/systematic-strategy-research), with a [research dashboard](https://anjaney336.github.io/portfolio/research/systematic-strategy-research/). This repository preserves the earlier implementation and results.
+
 # Quant Execution Lab
 
 **Price-time matching, transactional replay and paired execution-quality research.**
